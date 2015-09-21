@@ -1,0 +1,10 @@
+OUTPUT_DIRECTORY = @CMAKE_CURRENT_BINARY_DIR@/doc
+INPUT = @CMAKE_CURRENT_LIST_DIR@
+RECURSIVE = YES
+# add for example *.cpp *.c *.h
+FILE_PATTERNS = *.h *.cpp *.c *.hpp
+# allows you to display the source (i.e. the CMake scripts)
+SOURCE_BROWSER = YES
+# include undocumented entities
+EXTRACT_ALL = YES
+GENERATE_LATEX = NO
