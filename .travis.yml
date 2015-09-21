@@ -12,6 +12,6 @@ script:
 - mkdir build
 - cd build
 - $cmakeBin ..
-- make
+- make doc
 
 os: linux
