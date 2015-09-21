@@ -10,7 +10,7 @@ inquire_add_module_repository(moduleRepo FOLDER "${CMAKE_CURRENT_SOURCE_DIR}/../
 
 # an APM package repository contains all the built libraries and sources.
 inquire_add_package_repository(packageRepo FOLDER "${CMAKE_CURRENT_BINARY_DIR}/packages/")
-
+ 
 require_package(Doxygen VERSION 1.8.10 REQUIRED)
 
 add_doxygen_target("${CMAKE_CURRENT_SOURCE_DIR}/Doxyfile" doc "${CMAKE_CURRENT_BINARY_DIR}/doc")
