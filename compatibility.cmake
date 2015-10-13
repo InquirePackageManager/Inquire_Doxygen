@@ -1,0 +1,2 @@
+set(Doxygen_COMPATIBLE TRUE)
+set(Doxygen_COMPATIBILITY_DETAILS "")
